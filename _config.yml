@@ -31,10 +31,10 @@ navbar:
         Tags: /tags
         About: /about
     # Navigation bar links to be shown on the right
-    # links:
-    #     Download on GitHub:
-    #         icon: fab fa-github
-    #         url: 'https://github.com/ppoffice/hexo-theme-icarus'
+    links:
+        # Download on GitHub:
+        #     icon: fab fa-github
+        #     url: 'https://github.com/ppoffice/hexo-theme-icarus'
 # Footer section link settings
 footer:
     # Links to be shown on the right of the footer section
@@ -54,7 +54,7 @@ article:
     highlight:
         # Code highlight themes
         # https://github.com/highlightjs/highlight.js/tree/master/src/styles
-        theme: atom-one-dark
+        theme: atom-one-dark-reasonable
         # Show code copying button
         clipboard: true
         # Default folding status of the code blocks. Can be "", "folded", "unfolded"
@@ -62,7 +62,7 @@ article:
     # Whether to show article thumbnail images
     thumbnail: true
     # Whether to show estimate article reading time
-    readtime: true
+    readtime: false
 # Search plugin settings
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search
 search:
@@ -75,29 +75,29 @@ comment:
     type: 
 # Donation entries
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Donation/
-donate:
-    # -
-    #     # Donation entry name
-    #     type: alipay
-    #     # Qrcode image URL
-    #     qrcode: ''
-    # -
-    #     # Donation entry name
-    #     type: wechat
-    #     # Qrcode image URL
-    #     qrcode: ''
-    # -
-    #     # Donation entry name
-    #     type: paypal
-    #     # Paypal business ID or email address
-    #     business: ''
-    #     # Currency code
-    #     currency_code: USD
-    # -
-    #     # Donation entry name
-    #     type: patreon
-    #     # URL to the Patreon page
-    #     url: ''
+# donate:
+#     -
+#         # Donation entry name
+#         type: alipay
+#         # Qrcode image URL
+#         qrcode: ''
+#     -
+#         # Donation entry name
+#         type: wechat
+#         # Qrcode image URL
+#         qrcode: ''
+#     -
+#         # Donation entry name
+#         type: paypal
+#         # Paypal business ID or email address
+#         business: ''
+#         # Currency code
+#         currency_code: USD
+#     -
+#         # Donation entry name
+#         type: patreon
+#         # URL to the Patreon page
+#         url: ''
 # Share plugin settings
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share
 share:
@@ -107,10 +107,10 @@ share:
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
     # left sidebar settings
-    # left:
+    left:
         # Whether the left sidebar is sticky when page scrolls
         # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/make-a-sidebar-sticky-when-page-scrolls/
-        sticky: false
+        sticky: true
     # right sidebar settings
     right:
         # Whether the right sidebar is sticky when page scrolls
@@ -125,19 +125,19 @@ widgets:
         # Where should the widget be placed, left or right
         position: right
         # Author name to be shown in the profile widget
-        author: cinozaki
+        author: Cinozaki
         # Title of the author to be shown in the profile widget
-        # author_title: 
+        author_title: Code and Design
         # Author's current location to be shown in the profile widget
-        # location: Your location
+        location: KANAGAWA, Japan
         # Path or URL to the avatar to be shown in the profile widget
-        # avatar: 
+        avatar: /images/avatar.jpg
         # Email address for the Gravatar to be shown in the profile widget
-        # gravatar: 
+        gravatar: 
         # Whether to show avatar image rounded or square
-        # avatar_rounded: false
+        avatar_rounded: true
         # Path or URL for the follow button
-        follow_link: 'https://twitter.com/cinozaki'
+        follow_link: 'https://github.com/cinozaki/'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
@@ -160,15 +160,15 @@ widgets:
         type: toc
         # Where should the widget be placed, left or right
         position: right
-    -
-        # Widget name
-        type: links
-        # Where should the widget be placed, left or right
-        position: right
-        # Links to be shown in the links widget
-        links:
-            Hexo: 'https://hexo.io'
-            PPOffice: 'https://github.com/cinozaki'
+    # -
+    #     # Widget name
+    #     type: links
+    #     # Where should the widget be placed, left or right
+    #     position: right
+    #     # Links to be shown in the links widget
+    #     links:
+    #         Hexo: 'https://hexo.io'
+    #         PPOffice: 'https://github.com/cinozaki'
     -
         # Widget name
         type: category
