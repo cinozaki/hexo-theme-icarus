@@ -149,6 +149,9 @@ widgets:
             Instagram:
                 icon: fab fa-instagram
                 url: 'https://instagram.com/cinozaki/'
+            Twitter:
+                icon: fab fa-twitter
+                url: 'https://twitter.com/cinozaki/'
             # Dribbble:
             #     icon: fab fa-dribbble
             #     url: 'https://dribbble.com'
@@ -208,10 +211,10 @@ plugins:
     # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/mathjax-plugin/
     mathjax: true
     # Show the back to top button on mobile devices
-    back-to-top: true
+    back-to-top: false
     # Google Analytics plugin settings
     # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Google-Analytics
-    google-analytics:
+    google-analytics: UA-64302716-3
         # Google Analytics tracking id
         tracking_id: 
     # Baidu Analytics plugin settings
