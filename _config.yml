@@ -137,7 +137,7 @@ widgets:
         # Whether to show avatar image rounded or square
         avatar_rounded: true
         # Path or URL for the follow button
-        follow_link: 'https://github.com/cinozaki/'
+        follow_link: 'https://twitter.com/cinozaki/'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
@@ -146,9 +146,9 @@ widgets:
             # Facebook:
             #     icon: fab fa-facebook
             #     url: 'https://facebook.com'
-            Twitter:
-                icon: fab fa-twitter
-                url: 'https://twitter.com/cinozaki/'
+            Instagram:
+                icon: fab fa-instagram
+                url: 'https://instagram.com/cinozaki/'
             # Dribbble:
             #     icon: fab fa-dribbble
             #     url: 'https://dribbble.com'
