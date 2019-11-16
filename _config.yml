@@ -155,9 +155,9 @@ widgets:
             # Dribbble:
             #     icon: fab fa-dribbble
             #     url: 'https://dribbble.com'
-            # RSS:
-            #     icon: fas fa-rss
-            #     url: /
+            RSS:
+                icon: fas fa-rss
+                url: '/atom.xml'
     -
         # Widget name
         type: toc
@@ -211,7 +211,7 @@ plugins:
     # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/mathjax-plugin/
     mathjax: true
     # Show the back to top button on mobile devices
-    back-to-top: false
+    back-to-top: true
     # Google Analytics plugin settings
     # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Google-Analytics
     google-analytics: UA-64302716-3
