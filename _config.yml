@@ -10,17 +10,17 @@ rss:
 logo: /images/logo.svg
 # Open Graph metadata
 # https://hexo.io/docs/helpers.html#open-graph
-open_graph:
-    # Facebook App ID
-    fb_app_id: 
-    # Facebook Admin ID
-    fb_admins: 
-    # Twitter ID
-    twitter_id: 
-    # Twitter site
-    twitter_site: 
-    # Google+ profile link
-    google_plus: 
+# open_graph:
+#     # Facebook App ID
+#     fb_app_id: 
+#     # Facebook Admin ID
+#     fb_admins: 
+#     # Twitter ID
+#     twitter_id: 
+#     # Twitter site
+#     twitter_site: 
+#     # Google+ profile link
+#     google_plus: 
 # Navigation bar link settings
 navbar:
     # Navigation bar menu links
@@ -31,30 +31,30 @@ navbar:
         Tags: /tags
         About: /about
     # Navigation bar links to be shown on the right
-    links:
-        Download on GitHub:
-            icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+    # links:
+    #     Download on GitHub:
+    #         icon: fab fa-github
+    #         url: 'https://github.com/ppoffice/hexo-theme-icarus'
 # Footer section link settings
 footer:
     # Links to be shown on the right of the footer section
-    links:
-        Creative Commons:
-            icon: fab fa-creative-commons
-            url: 'https://creativecommons.org/'
-        Attribution 4.0 International:
-            icon: fab fa-creative-commons-by
-            url: 'https://creativecommons.org/licenses/by/4.0/'
-        Download on GitHub:
-            icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+    # links:
+    #     Creative Commons:
+    #         icon: fab fa-creative-commons
+    #         url: 'https://creativecommons.org/'
+    #     Attribution 4.0 International:
+    #         icon: fab fa-creative-commons-by
+    #         url: 'https://creativecommons.org/licenses/by/4.0/'
+    #     Download on GitHub:
+    #         icon: fab fa-github
+    #         url: 'https://github.com/ppoffice/hexo-theme-icarus'
 # Article display settings
 article:
     # Code highlight settings
     highlight:
         # Code highlight themes
         # https://github.com/highlightjs/highlight.js/tree/master/src/styles
-        theme: atom-one-light
+        theme: atom-one-dark
         # Show code copying button
         clipboard: true
         # Default folding status of the code blocks. Can be "", "folded", "unfolded"
@@ -76,28 +76,28 @@ comment:
 # Donation entries
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Donation/
 donate:
-    -
-        # Donation entry name
-        type: alipay
-        # Qrcode image URL
-        qrcode: ''
-    -
-        # Donation entry name
-        type: wechat
-        # Qrcode image URL
-        qrcode: ''
-    -
-        # Donation entry name
-        type: paypal
-        # Paypal business ID or email address
-        business: ''
-        # Currency code
-        currency_code: USD
-    -
-        # Donation entry name
-        type: patreon
-        # URL to the Patreon page
-        url: ''
+    # -
+    #     # Donation entry name
+    #     type: alipay
+    #     # Qrcode image URL
+    #     qrcode: ''
+    # -
+    #     # Donation entry name
+    #     type: wechat
+    #     # Qrcode image URL
+    #     qrcode: ''
+    # -
+    #     # Donation entry name
+    #     type: paypal
+    #     # Paypal business ID or email address
+    #     business: ''
+    #     # Currency code
+    #     currency_code: USD
+    # -
+    #     # Donation entry name
+    #     type: patreon
+    #     # URL to the Patreon page
+    #     url: ''
 # Share plugin settings
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share
 share:
@@ -107,7 +107,7 @@ share:
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
     # left sidebar settings
-    left:
+    # left:
         # Whether the left sidebar is sticky when page scrolls
         # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/make-a-sidebar-sticky-when-page-scrolls/
         sticky: false
@@ -123,48 +123,48 @@ widgets:
         # Widget name
         type: profile
         # Where should the widget be placed, left or right
-        position: left
+        position: right
         # Author name to be shown in the profile widget
         author: cinozaki
         # Title of the author to be shown in the profile widget
-        author_title: Your title
+        # author_title: 
         # Author's current location to be shown in the profile widget
-        location: Your location
+        # location: Your location
         # Path or URL to the avatar to be shown in the profile widget
-        avatar: 
+        # avatar: 
         # Email address for the Gravatar to be shown in the profile widget
-        gravatar: 
+        # gravatar: 
         # Whether to show avatar image rounded or square
-        avatar_rounded: false
+        # avatar_rounded: false
         # Path or URL for the follow button
-        follow_link: 'https://github.com/ppoffice'
+        follow_link: 'https://twitter.com/cinozaki'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/ppoffice'
-            Facebook:
-                icon: fab fa-facebook
-                url: 'https://facebook.com'
+                url: 'https://github.com/cinozaki/'
+            # Facebook:
+            #     icon: fab fa-facebook
+            #     url: 'https://facebook.com'
             Twitter:
                 icon: fab fa-twitter
                 url: 'https://twitter.com/cinozaki/'
-            Dribbble:
-                icon: fab fa-dribbble
-                url: 'https://dribbble.com'
-            RSS:
-                icon: fas fa-rss
-                url: /
+            # Dribbble:
+            #     icon: fab fa-dribbble
+            #     url: 'https://dribbble.com'
+            # RSS:
+            #     icon: fas fa-rss
+            #     url: /
     -
         # Widget name
         type: toc
         # Where should the widget be placed, left or right
-        position: left
+        position: right
     -
         # Widget name
         type: links
         # Where should the widget be placed, left or right
-        position: left
+        position: right
         # Links to be shown in the links widget
         links:
             Hexo: 'https://hexo.io'
@@ -173,12 +173,12 @@ widgets:
         # Widget name
         type: category
         # Where should the widget be placed, left or right
-        position: left
+        position: right
     -
         # Widget name
         type: tagcloud
         # Where should the widget be placed, left or right
-        position: left
+        position: right
     -
         # Widget name
         type: recent_posts
